@@ -1,0 +1,120 @@
+.background{
+    display: flex;
+    justify-content:space-between;
+}
+
+.vetor1{
+    position:fixed;
+    width: 900px;
+    height: 120px;
+
+
+}
+.vetor2{
+    right: 0;
+    position:fixed;
+    height:100%;
+    width: 300px;
+
+}
+.bolinhasRosa{
+    width: 160px;
+    position: fixed;
+    top: 180px;
+    left: 150px;
+}
+
+.bolinhasVerde{
+    width: 160px;
+    position: fixed;
+    bottom: 0;
+    right: 70px;
+}
+.circleRosa{
+    position: fixed;
+    width: 250px;
+    top: 350px;
+    left: 200px;
+}
+.circleVerde{
+    position: fixed;
+    width: 150px;
+    top: 540px;
+    left: 100px;
+}
+
+@media(max-width: 1300px){
+    .vetor1{
+        width: 750px;
+    }
+}
+@media(max-width: 1100px){
+    .vetor1{
+        width: 700px;
+    }
+    .vetor2{
+        width: 230px;
+    }
+    .circleRosa{
+        width: 210px;
+        top: 280px;
+        left: 160px;
+    }
+    .circleVerde{
+        width: 100px;
+        top: 470px;
+        left: 80px;
+    }
+    .bolinhasRosa{
+        width: 140px;
+        top:150px;
+        left: 100px;
+
+    }
+}
+@media(max-width: 860px){
+    .vetor1{
+        width: 590px;
+        height: 100px;
+    }
+    .vetor2{
+        width: 180px;
+    }
+    .bolinhasVerde{
+        width: 140px;
+    }
+
+}
+@media(max-width: 660px){
+    .vetor1{
+        width: 400px;
+        height: 70px;
+    }
+    .vetor2{
+        width: 150px;
+    }
+    .circleRosa{
+        width: 160px;
+    }
+}
+@media(max-width: 430px){
+    .vetor1{
+        width: 350px;
+    }
+    .vetor2{
+        display: none;
+    }
+    .circleRosa{
+        left: 100px;
+    }
+    .circleVerde{
+        left: 50px;
+    }
+    .bolinhasRosa{
+        left: 50px;
+        top: 70px;
+    }
+    .bolinhasVerde{
+        right: 40px;
+    }
+}
