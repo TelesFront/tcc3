@@ -53,6 +53,8 @@
         </div>
         <div class="img-table container">
     <!-- Declaração do formulário -->  
+    <div class="form-content"> 
+    
 <form class="form-pagamento" method="post" target="pagseguro"  
 action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
           
@@ -102,10 +104,15 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
 
         <div class="fomr-comprador">
         <!-- Dados do comprador (opcionais) -->  
-        <p>Digite seu Nome:<input class="input-form" name="senderName" type="text" value="">
-        <p>Digite seu Email:<input  class="input-form"  name="senderEmail" type="text" placeholder="Seu Email">   
-        <p>Digite o seu DDD:<input class="input-form" name="senderAreaCode" type="number" value="">  
-        <p>Digite seu número de telefone:<input class="input-form" name="senderPhone" type="number" value="">  
+        <div>
+        <input placeholder="Nome" class="input-form" name="senderName" type="text" value="">
+        <input placeholder="Email"  class="input-form"  name="senderEmail" type="text" placeholder="Seu Email">  
+        </div>
+
+        <div>
+        (<input placeholder="DDD" class="input-form" name="senderAreaCode" type="number" value="">) -
+        <input placeholder="Numero" class="input-form" name="senderPhone" type="number" value=""> 
+        </div>
         </div>
          
   
@@ -113,7 +120,8 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
         <input alt="Pague com PagSeguro" name="submit"  type="image"  
 src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/120x53-pagar.gif"/>  
           
-</form> 
+</form>
+</div> 
        
         <script src="js/preloader.js"></script>
         <footer class="footer-login">
