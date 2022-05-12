@@ -980,7 +980,12 @@ z-index: 1;
 
   }
   /* formulario pagamento */
+  .form-content{
+    display: flex;
+    justify-content:space-around ;
+  }
 .form-pagamento{
+  max-width: 500px;
   backdrop-filter: blur( 4px );
   padding: 40px 20px;
   background-color: #f3fefe73;
@@ -1043,6 +1048,11 @@ z-index: 1;
     text-align: left;
     font-family: "Nunito";
     font-size: 1.2rem;
+  }
+  .fomr-comprador{
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
   }
  
 .numero{
