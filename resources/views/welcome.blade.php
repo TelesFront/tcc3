@@ -19,33 +19,10 @@
     </div>
     </div>
 
+    
 
 
-    <div class="split-slideshow">
-  <div class="slideshow">
-    <div class="slider">
-      <div class="item">
-        <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-2.jpg" />
-      </div>
-      <div class="item">
-        <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-3.jpg" />
-      </div>
-      <div class="item">
-        <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-4.jpg" />
-      </div>
-      <div class="item">
-        <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-1.jpg" />
-      </div>
-    </div>
-  </div>
-  <div class="slideshow-text">
-    <div class="item">Canyon</div>
-    <div class="item">Desert</div>
-    <div class="item">Erosion</div>
-    <div class="item">Shape</div>
-  </div>
-</div>
-
+<div id="universe"></div>
 
         <!-- <div class="background welcome">
         <svg class="vetoronda" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
