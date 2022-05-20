@@ -946,7 +946,7 @@ z-index: 1;
     font-size: 3rem;
     font-family: "Poppins";
     color: black;
-    margin-top: 100px;
+    margin-top: 130px;
     text-align: center;
   }
   .img-table{
@@ -1066,6 +1066,8 @@ z-index: 1;
 }
 .complemento-div{
   margin: 10px auto;
+  
+  text-align: center;
     
 }
 .estado-div{
@@ -1084,9 +1086,59 @@ z-index: 1;
   width: 35px;
 }
 
-
-
-
+.nome-form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.numero-form{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.nome-form input{
+  margin: 10px;
+}
+.dado{
+  margin-top: 30px;
+}
+.ddd{
+  width: 32px;
+}
+.bota-pague{
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.instrucoes{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.instrucoes h2{
+  
+  text-align: center;
+  font-size: 2.3rem;
+}
+.instrucoes p{
+  font-size: 1.3rem;
+  font-family: "Nunito";
+}
+.instrucoes ul{
+  list-style: none
+}
+.instrucoes ul li{
+  position: relative;
+}
+.instrucoes ul li::before{
+  content:"";
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: pink;
+  left: -15px;
+  top: 6px;
+}
 
 
   /* Slide Show */
