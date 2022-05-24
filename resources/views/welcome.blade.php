@@ -12,7 +12,6 @@
 
     
     <body class="antialiased">
-    @extends('layouts.app')
     <div id="preloader">
     <div class="inner">
     <img class="gif" src="img/1491.gif" alt="loading">
@@ -25,43 +24,168 @@
 <div class="firework">
     
 </div>
-<h1 style="color:white; margin:100px 0; font-family:"> <div class="flip_letters">
+<div class="imagem-logo-welcome"> 
+  <img src="img/Logo-big.png" alt="">
+
+  
+</div>
+
+<h1 class="titulo-paper" style="color:white; margin:100px 0; font-family:"> <div class="flip_letters">
    <span style="--flip:1">P</span>
-   <span style="--flip:2">A</span>
-   <span style="--flip:3">P</span>
-   <span style="--flip:4">E</span>
-   <span style="--flip:5">R</span>
+   <span style="--flip:2">a</span>
+   <span style="--flip:3">p</span>
+   <span style="--flip:4">e</span>
+   <span style="--flip:5">r</span>
+   <span style="--flip:6"> </span>
    <span style="--flip:6">T</span>
-   <span style="--flip:7">O</span>
-   <span style="--flip:8">W</span>
-   <span style="--flip:9">N</span>
+   <span style="--flip:7">o</span>
+   <span style="--flip:8">w</span>
+   <span style="--flip:9">n</span>
    <span style="--flip:10"> </span>
    <span style="--flip:11">A</span>
-   <span style="--flip:12">R</span>
-   <span style="--flip:13">T</span>
+   <span style="--flip:12">r</span>
+   <span style="--flip:13">t</span>
   </div>
-</body>
+  
 </h1>
+  <h3 class="h3-paper">
+    Canecas Personalizadas! 
+  </h3>
+
+  <div class="entre-welcome">
+<div>
+  <a href="{{ route('login')}}">Entre</a>
+</div>
+<p>ou</p>
+<div>
+  <a href="{{ route('register') }}">Cadastre-se</a>
+</div>
+</div>
+
+</body>
+
+
+
 <style>
+  .entre-welcome div a, .entre-welcome p{
+    text-decoration:none;
+    color:black;
+    font-family:"Poppins";
+    font-weight: bold ;
+    font-size:1.5rem;
+
+  }
+
+  .entre-welcome div{
+    margin:0 5px;
+    font-family:"Poppins";
+    font-weight: bold ;
+    font-size:1.5rem;
+  }
+  .entre-welcome{
+    margin:25px auto;
+    align-items:center;
+    display:flex;
+    animation:  entre-welcome  5s forwards;
+  }
+  @keyframes entre-welcome  {
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, 90px, 0);
+  }
+  80% {
+    opacity: 0;
+    transform: translate3d(0px, 90px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+  }}
+  .imagem-logo-welcome img{
+    animation: surgir-img 1s forwards;
+    margin:25px auto;
+    width: 200px;
+  }
     .antialiased{
-        font-family:"Poppins";
+      display:flex;
+        background: white;
+        font-family:"Nunito";
+        overflow: hidden !important;
+        flex-direction:column;
+        align-items:center;
     }
      .flip_letters {
     position: relative;
+    text-align:center:  
   }
+  .h3-paper{
+    margin-top:50PX;
+    font-size: 2rem;
+    font-family:"Poppins";
+    font-weight: bold ;
+    animation: surgir-h2 4s forwards;
+  }
+  .titulo-paper{
+    margin:0 auto !important;
+    animation: surgir 3s forwards;
 
+  }
   .flip_letters span {
-    font-size: 10rem;
+    font-size: 5rem;
     position: relative;
     display: inline-block;
-    color: white;
-    animation: flip 2s infinite;
+    color: pink;
+    font-weight: bold ;
+    animation: flip 3s infinite;
     animation-delay: calc(.2s * var(--flip));
   }
+  @keyframes surgir  {
+  0% {
+    opacity: 0;
+    transform: translate3d(80px, 0px, 0);
+  }
+  40% {
+    opacity: 0;
+    transform: translate3d(80px, 0px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+  }}
+  @keyframes surgir-h2  {
+  0% {
+    opacity: 0;
+    transform: translate3d(-80px, 0px, 0);
+  }
+  60% {
+    opacity: 0;
+    transform: translate3d(-80px, 0px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+  }
+}
+@keyframes surgir-img  {
+  from {
+    opacity: 1;
+    transform: translate3d(60px, 0px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+  }
+}
 
   @keyframes flip {
-    0%, 80% {
-      transform: rotateY(360deg); 
+    0%{
+      transform: translate3d(0, 0px, 0);
+    }
+    50% {
+      transform: translate3d(0, 20px, 0);
+    }
+    100%{
+      transform: translate3d(0, 0px, 0);
     }
   }
     body {
@@ -91,13 +215,13 @@
 {
   --initialSize: 0.5vmin;
   --finalSize: 45vmin;
-  --particleSize: 0.2vmin;
-  --color1: yellow;
-  --color2: khaki;
-  --color3: white;
-  --color4: lime;
+  --particleSize: 1vmin;
+  --color1: pink;
+  --color2:rgb(40, 251, 184);
+  --color3: grey;
+  --color4: #ff4661;
   --color5: gold;
-  --color6: mediumseagreen;
+  --color6:#1332f9;
   --y: -30vmin;
   --x: -50%;
   --initialY: 60vmin;
@@ -110,12 +234,12 @@
   width: var(--initialSize);
   aspect-ratio: 1;
   background: 
-    /*
+    
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 0% 0%,
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 100% 0%,
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 100% 100%,
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 0% 100%,
-    */
+    
     
     radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 50% 0%,
     radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 50%,

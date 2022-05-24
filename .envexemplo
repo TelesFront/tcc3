@@ -2,7 +2,7 @@ APP_NAME=Laravel
 
 APP_ENV=local
 
-APP_KEY=base64:fLwZfXSZ0ujUwWtCu5s936vTM2w+g3qfwVsCphg926E=
+APP_KEY=
 
 APP_DEBUG=true
 

@@ -354,21 +354,24 @@ border-radius: 50px;
   width: 400px;
   height: 400px;
   text-align: center;
-  animation: show 0.5s forwards;
+  animation: show 1s forwards;
   border-radius: 100%;
   bottom: 0px;
 
 }
-@keyframes show {
-  from {
+@keyframes show  {
+  0% {
     opacity: 0;
-    transform: translate3d(0, 0px, 0);
+    transform: translate3d(0px, 10px, 0);
   }
-  to {
+  50% {
+    opacity: 0;
+    transform: translate3d(0px, 10px, 0);
+  }
+  100% {
     opacity: 1;
-    transform: translate3d(0, 30px, 0);
-  }
-}
+    transform: translate3d(0, 0px, 0);
+  }}
 .login-label, .cadastro-label{
   font-size: 3rem;
   font-family: 'Poppins';
@@ -395,7 +398,7 @@ border-radius: 50px;
   background-color: transparent;
   padding: 6px 12px;
   border: none;
-  border-bottom: 2px black solid;
+  border-bottom: 2px rgb(0, 0, 0) solid;
   font-family: "Nunito";
   width: 270px;
   transition: 0.3s;
