@@ -82,7 +82,8 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
         <input name="receiverEmail" type="hidden" value="suporte@lojamodelo.com.br">  
         <input name="currency" type="hidden" value="BRL">  
   
-        <!-- Itens do pagamento (ao menos um item é obrigatório) -->   
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">   
         <input name="itemDescription1" type="hidden" value="Caneca">  
         <input name="itemAmount1" type="hidden" value="49.90">  
         <p class="quantidade-caneca-p">Quantidade de canecas:<input class="quantidade-caneca input-form" name="itemQuantity1" type="number" value=""></p>

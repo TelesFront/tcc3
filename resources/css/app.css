@@ -527,21 +527,6 @@ body{
     margin: 80px 0px;
   }
   
-  /* Welcome */
-  .welcome{
-    position: relative;
-  }
-  .vetoronda{
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
-  
-  }
-  .vetoronda path{
-    height: 300px;
-  }
-  
   /* home */
   .redes-sociais{
     padding: 5px 3px;
@@ -851,6 +836,14 @@ body{
         flex-direction: column;
       }
     }
+    /* instruções */
+    .instrucoes{
+      margin: 10px 25px;
+    }
+    .instrucoes ul li{
+      font-family: "Nunito";
+      font-size: 1rem;
+    }
     /* footer */
     footer{
       background-color: rgba(0, 0, 0, 0.062);
@@ -878,3 +871,5 @@ body{
       display: flex;
   
     }
+    /* welcome */
+    

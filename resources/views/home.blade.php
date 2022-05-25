@@ -68,8 +68,8 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
 
 <div class="galeria">
     <div class="texto-galeria">
-        <h2>De uma olhada nas nossas canecas<span class="spanh2" >!</span></h2>
-        <a class="link-personalizar" href="/teste">Personalize a sua caneca</a>
+        <h2>De uma olhada nas nossas canecas, qualquer estilo por apenas <span class="spanh2" >R$49,90!</span></h2>
+        <a class="link-personalizar" href="/teste">Personalize a sua</a>
     </div>
     <ul  class="fotos">
         <li><img src="img/caneca5.jpg" alt="caneca5"></li>
@@ -85,32 +85,9 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
 </div>
 
 <div id="sobrenos">
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
-    <h2>Beth</h2>
     
 </div>
 <div id="contato">
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
-    <h2>tami</h2>
     
 
 </div>
