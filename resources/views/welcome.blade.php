@@ -12,18 +12,38 @@
 
     
     <body class="antialiased">
+    <div class="background">
+        <img class="vetor1" src="img/Vector1.png" alt="detalhe">
+        <img class="vetor2" src="img/Vector2.png" alt="detalhe">
+        <img class="bolinhasRosa" src="img/BolinhasRosa.png" alt="detalhe">
+        <img class="bolinhasVerde" src="img/BolinhasVerde.png" alt="detalhe">
+        <img class="circleRosa" src="img/circleRosa.png" alt="detalhe">
+        <img class="circleVerde" src="img/CircleVerde.png" alt="detalhe">
+    </div>
+
+    <div class="copos">
+      <div class="copos-container">
+      <img  class="xicara" src="img/xicara.svg" alt="detalhe">
+      <img class="xicara" src="img/cafe.png" alt="detalhe">
+      </div>
+    </div>
+
     <div id="preloader">
     <div class="inner">
     <img class="gif" src="img/1491.gif" alt="loading">
     </div>
     </div>
+
+
+
+<!-- 
     <div class="firework"></div>
 
-<div class="firework">
-</div>
-<div class="firework">
+    <div class="firework">
+        </div>
+      <div class="firework">
     
-</div>
+      </div> -->
 <div class="imagem-logo-welcome"> 
   <img src="img/Logo-big.png" alt="">
 
@@ -67,6 +87,18 @@
 
 
 <style>
+  .copos{
+    position: absolute;
+    bottom: 200px;
+    width: 120px;
+  }
+  .copos-container{
+    display:flex;
+    text-align:center;
+  }
+.vetor1{
+  left: 50px;
+}
   .entre-welcome div a, .entre-welcome p{
     text-decoration:none;
     color:black;
