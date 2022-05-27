@@ -724,7 +724,7 @@ z-index: 1;
   grid-row: 2;
 }
 .galeria{
-  margin: 0 25px;
+  margin: 0px;
 }
 
 
@@ -905,7 +905,6 @@ z-index: 1;
     width: 100%;
     height: 5vh;
     text-align: center;
-    display: flex;
   }
   .footer{
     text-align: center;
@@ -921,15 +920,59 @@ z-index: 1;
   .footer-login-container a{
     text-decoration: none;
   }
+  .footer-login-container P{
+    grid-column: 1/-1;
+    font-family: "Poppins";
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
   .footer-login{
     background: rgba(255, 255, 255, 0.251);
-  backdrop-filter: blur( 4px );
-  box-shadow: 0 5px 10px 0 rgba(9, 55, 43, 0.219);
-  border: 1px solid rgba( 255, 255, 255 );
+    backdrop-filter: blur( 4px );
+    box-shadow: 0 5px 10px 0 rgba(9, 55, 43, 0.219);
+    border: 1px solid rgba( 255, 255, 255 );
     width: 100%;
-    height: 20vh;
+    height:auto;
     text-align: center;
-    display: flex;
+  }
+  .icones-apresentacao{
+    grid-column: 1/-1;
+    font-size: 0.7rem;
+  }
+  .icones-apresentacao a{
+    color: rgb(92, 92, 92);
+    font-family: "Nunito";
+    grid-row: 1/-1;
+  }
+  .footer-login-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .teles-da{
+    margin: 15px auto;
+    position: relative;
+    grid-column: 1 / -1;
+  }
+  .teles-da::before,  .teles-da::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    left: -90px;
+    border-radius: 20px;
+    top: 15px;
+    background-color: rgba(0, 0, 0, 0.604);
+    height: 1px;
+  }
+  .teles-da::after{
+    left: 138px;
+  }
+  .teles-da a img{
+    width: 30px;
+  }
+  .teles-da a{
+    margin: 0 5px;
   }
   /* editor */
   .cmtciE{

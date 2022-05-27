@@ -110,7 +110,7 @@
         
 <footer>
     <div class="footer">
-        <p>Alguns direitos reservado - DevMonster</p>
+        <p>Alguns direitos reservado - Teles.DA</p>
 
     </div>
 </footer>
