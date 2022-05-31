@@ -69,20 +69,23 @@
              
             </div>
           </div>
+          
+<script type="text/javascript" src="https://form.jotform.com/jsform/221497690659673"></script>
 
 
 <script src="//code.jivosite.com/widget/zQUHoE4g54" async></script>
-    <!-- Declaração do formulário -->  
+<!-- 
+    Declaração do formulário
     <div class="form-content"> 
     
-<form class="form-pagamento" method="post" target="pagseguro"  
-action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+    <form class="form-pagamento" method="post" target="pagseguro"  
+        action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
           
-        <!-- Campos obrigatórios -->  
+        Campos obrigatórios 
         <input name="receiverEmail" type="hidden" value="suporte@lojamodelo.com.br">  
         <input name="currency" type="hidden" value="BRL">  
   
-        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+         Itens do pagamento (ao menos um item é obrigatório) 
         <input name="itemId1" type="hidden" value="0001">   
         <input name="itemDescription1" type="hidden" value="Caneca">  
         <input name="itemAmount1" type="hidden" value="49.90">  
@@ -90,7 +93,7 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
         <input  name="itemWeight1" type="hidden" value="400">  
   
           
-        <!-- Informações de frete (opcionais) -->  
+        Informações de frete (opcionais) 
         <div class="forma-pagamento">
         <p>Forma de envio:</p>
         <div>
@@ -123,7 +126,8 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
         </div>
           <div class="quantidade-caneca-p dado">Dados do Comprador </div>
         <div class="fomr-comprador">
-        <!-- Dados do comprador (opcionais) -->  
+
+         Dados do comprador (opcionais) 
         <div class=" nome-form">
         <input placeholder="Nome" class="input-form" name="senderName" type="text" value="">
         <input placeholder="Email"  class="input-form"  name="senderEmail" type="text" placeholder="Seu Email">  
@@ -136,13 +140,15 @@ action="https://pagseguro.uol.com.br/v2/checkout/payment.html">
         </div>
          
   
-        <!-- submit do form (obrigatório) -->
+        submit do form (obrigatório) 
         <div class="bota-pague" >
         <input  alt="Pague com PagSeguro" name="submit"  type="image"  
-src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/120x53-pagar.gif"/>  
-</div>  
-</form>
-</div> 
+    src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/120x53-pagar.gif"/>
+  </form> 
+
+    </div> 
+
+</div> -->
 <p>Muito Obrigada!</p>
        
         <script src="js/preloader.js"></script>

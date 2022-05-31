@@ -34,11 +34,11 @@
 
     <div class="container-home">
 
-<div class="redes-sociais">
+<!-- <div class="redes-sociais">
    <a href=""> <img src="img/instagram.svg" alt="Instagram"></a>
    <a href=""> <img src="img/facebook.svg" alt="Facebook"></a>
    <a href=""> <img src="img/tik-tok.svg" alt="Tik Tok"></a>
-</div>
+</div> -->
 
 
 <div class="texto1">
@@ -85,10 +85,58 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
 </div>
 
 <div id="sobrenos">
+        <input type="radio" class="slide-controller" name="slide" checked />
+        <input type="radio" class="slide-controller" name="slide" />
+
+    <div class="sobrenos-container slide-show" >
+
+        <ul class="slides-list">
+
+        <li class="papertown-sobrenos slides">
+        
+            <div class="titulo-sobrenos">
+                <h2 class="logo-titulo-sobrenos">PaperTown Art <img src="img/logo.png" alt=""></h2>
+                <h3>Sobre a empresa</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate incidunt quam. Fugiat expedita dignissimos deleniti dolor in qui voluptas perferendis velit cupiditate incidunt sunt ut quae, consequuntur sed! Neque!</p>
+            </div>
+
+            <div class="cards">
+
+                <div class="missao card-sobrenos">
+                    <h2>Missão</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
+                             </p>
+                </div>
+
+                <div class="visao card-sobrenos">
+                    
+                        <h2>Visão</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
+                             </p>
+                     </div>
+
+                <div class="valores card-sobrenos">
+                        <h2>Valores</h2>
+                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
+                                 </p>
+                    </div>
+            </div> 
+
+        </li>
+
+        <li class="teles-da-sobrenos slides">
+
+            <img src="img/logo.png" alt="">
+        </li>
+        </ul>
+
+        
+    </div>
     
 </div>
 <div id="contato">
-<script type="text/javascript" src="https://form.jotform.com/jsform/221497690659673"></script>
+
     
 
 </div>
