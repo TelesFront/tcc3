@@ -35,8 +35,14 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Auth::routes();
 
-Route::get('/teste', function () {
-    return view('teste');
+
+Route::get('/canecas', function () {
+    return view('canecas');
+
+});
+
+Route::get('/pagamento', function () {
+    return view('pagamento');
 });
 
 
