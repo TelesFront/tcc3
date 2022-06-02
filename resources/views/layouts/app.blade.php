@@ -59,7 +59,7 @@
                                         <a href="/home">Home</a>
                                     </li>
                                     <li>
-                                        <a href="/teste">Canecas</a>
+                                        <a href="/canecas">Canecas</a>
                                     </li>
                                 <li>
                                         <a href="home#contato">Contato</a>

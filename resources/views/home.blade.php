@@ -34,18 +34,12 @@
 
     <div class="container-home">
 
-<!-- <div class="redes-sociais">
-   <a href=""> <img src="img/instagram.svg" alt="Instagram"></a>
-   <a href=""> <img src="img/facebook.svg" alt="Facebook"></a>
-   <a href=""> <img src="img/tik-tok.svg" alt="Tik Tok"></a>
-</div> -->
 
 
 <div class="texto1">
 <h1>PaperTown Art</h1>
 <h2>LINDAS CANECAS PERSONALIZADAS<span class="titulo-span">!</span></h2>
-<h3>A Paper Town Art é uma loja de canecas personalizadas e relacionada ao mundo geek.
-Acreditamos na magia dos presentes personalizados que com um toque de carinho e cuidado se tornam únicos e ainda mais especiais, assim como nossos clientes. 
+<h3>Para você que ama deixar tudo com sua carinha, experimente nossas canecas personalizadas, altissima qualidade e amor ao trabalho para te entregar o melhor!
 </h3>
 </div>
 
@@ -58,13 +52,7 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
 
 </div>
 
-<div class="sobre-voce">
 
-    <div class="imagem-artista">
-    </div>
-    <h3>Texto sobre a artista</h3>  
-    
-</div>
 
 <div class="galeria">
     <div class="texto-galeria">
@@ -98,7 +86,8 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
                 <h2 class="logo-titulo-sobrenos">PaperTown Art <img src="img/logo.png" alt=""></h2>
                 <h3>Sobre a empresa</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate incidunt quam. Fugiat expedita dignissimos deleniti dolor in qui voluptas perferendis velit cupiditate incidunt sunt ut quae, consequuntur sed! Neque!</p>
+                <p>A Paper Town Art é uma loja de canecas personalizadas e relacionada ao mundo geek.
+Acreditamos na magia dos presentes personalizamos que com um toque de carinho e cuidado se tornam únicos e ainda mais especiais, assim como nossos clientes. </p>
             </div>
 
             <div class="cards">
@@ -122,6 +111,16 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
                                  </p>
                     </div>
             </div> 
+            <div class="sobre-voce">
+
+                <div class="imagem-artista"> <img src="img/brennda.jpeg" alt="Foto da Artista"></div>
+                <h2>Sobre a Artista</h2>
+                <h3>Oi, eu sou a Brennda, tenho 23 anos e sempre fui apaixonada por arte, desenhos, pinturas e principalmente pelo mundo geek.<br>
+                    Sou uma pessoa que ama trabalhos manuais e confeccionar presentes para aqueles que eu amo, pois acredito que eles são muito mais valiosos e especiais por carregarem tanto carinho e significado no processo de criação. <br>
+Criei a Paper Town justamente para que assim como eu, pessoas que acreditam na magia e significado dos presente personalizados, também possam presentear e surpreender aqueles que amam.<br>
+    
+E também, para aqueles que assim como eu, são fãs de carteirinha e querem demonstrar sua afeição pelos seus personagens favoritos!  </h3>  
+            </div>
 
         </li>
 
@@ -135,7 +134,57 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
     </div>
     
 </div>
+
+         <div>
+        <section>
+                <h2 class="title">Perguntas Frequentes</h2>
+                <div class="faq" id="faq1" onclick="faq1()">
+                    <div class="question">
+                        <h3>Quais os metodos de entregas que vocês realizam?</h3>
+
+
+                        <img src="img/seta-dropdown.svg" alt="seta">
+
+                    </div>
+                    <div class="answer">
+                        <p>Os meios de entrega podem variar de acordo com a necessidade do comprador e a disponibilidade do vendedor, tais como correios ou meios de entregas por vias públicas.</p>
+                    </div>
+                </div>
+                <div class="faq" id="faq2" onclick="faq2()" >
+                    <div class="question">
+                        <h3>Como posso fazer mais de 1 pedido com fotos diferentes?</h3>
+
+
+                        <img src="img/seta-dropdown.svg" alt="seta">
+
+                    </div>
+                    <div class="answer">
+                        <p> É bem simples! basta você selecionar suas fotos ao pedido final, ir para a pagina de pagamento e selecionar quantas canecas você gostaria de comprar. </p>
+                    </div>
+                </div>
+                <div class="faq" id="faq3" onclick="faq3()" >
+                    <div class="question">
+                        <h3>Ao sair da pagina de pagamento sem finalizar, devo fazer o pedido novamente?</h3>
+
+
+                        <img src="img/seta-dropdown.svg" alt="seta">
+
+                    </div>
+                    <div class="answer">
+                        <p>Não, não ha necessidade de realizar outro pedido, basta entrar em contato com a atendende para te ajudar na verificação, ou aguardar o email do PagSeguro.</p>
+                    </div>
+                </div>
+            </section>
+            </div>
+    
 <div id="contato">
+    <div class="redes-sociais">
+    <a href=""> <img src="img/instagram.svg" alt="Instagram"></a>
+   <a href=""> <img src="img/facebook.svg" alt="Facebook"></a>
+   <a href=""> <img src="img/tik-tok.svg" alt="Tik Tok"></a>
+   </div>
+    
+<script type="text/javascript" src="https://form.jotform.com/jsform/221526014436649"></script>
 
     
 
@@ -173,6 +222,7 @@ Acreditamos na magia dos presentes personalizados que com um toque de carinho e 
 
 <script src="//code.jivosite.com/widget/zQUHoE4g54" async></script>
 @endsection
+<script src="js/perguntas.js"></script>
 <script src="js/preloader.js"></script>
 </body> 
 </html>
