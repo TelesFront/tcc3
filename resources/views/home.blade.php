@@ -94,20 +94,21 @@
 
                 <div class="missao card-sobrenos">
                     <h2>Missão</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
+                        <p> A Paper Town Art tem como missão estar presente nos momentos especiais dos nossos clientes, marcar suas vidas de forma criativa, positiva e única. 
                              </p>
                 </div>
 
                 <div class="visao card-sobrenos">
 
                         <h2>Visão</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
+                        <p> Ser uma loja referência para o público geek e ter loja física. 
+
                              </p>
                 </div>
                 
                 <div class="valores card-sobrenos">
                         <h2>Valores</h2>
-                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
+                         <p>Amor, Cuidado, Atenção. Respeito e Inclusão. 
                                  </p>
 
                 </div>
@@ -135,8 +136,7 @@
 
                 <h3>Sobre a empresa</h3>
 
-                    <p>A Paper Town Art é uma loja de canecas personalizadas e relacionada ao mundo geek.
-                    Acreditamos na magia dos presentes personalizamos que com um toque de carinho e cuidado se tornam únicos e ainda mais especiais, assim como nossos clientes. </p>
+                    <p>A Teles D.A  trata-se de uma empresa de desenvolvimento e gerenciamento de Websites em geral, que tem  por missão facilitar a entrada e a vida de pessoas como você no mundo digital. Sendo assim enquanto cliente você pode ficar tranquilo(a) pois os nossos valores são Confiança e Excelência, para sempre prestarmos o melhor serviço possível. </p>
             </div>
 
 
@@ -174,8 +174,8 @@
            <div class="documentação-card">
                 <div class="desenvolvedores-card rafa">
 
-                <img src="img/tamiris.jpeg" alt="Tamiris Alencar">
-                <h3>Rafael</h3>
+                <img src="img/rafael.jpeg" alt="Tamiris Alencar">
+                <h3>Rafael Oliveira</h3>
                 <p>Desenvolvedor Back-End Técnico</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
@@ -266,13 +266,13 @@
 
                 <p>Teles D.A</p>
             <div class="teles-da">      
-                <a href="">
-                <img src="img/instagram.svg" alt="Instagram">
+                <a href="https://www.instagram.com/teles_d.a/?igshid=YmMyMTA2M2Y%3D "  target=”_blank” >
+                <img src="img/instagram.svg"  alt="Instagram">
                 </a>
-                <a href="">
+                <a href=" https://telesda.com" target=”_blank”>
                 <img src="img/web.svg" alt="Web">
                 </a>
-                <a href="">
+                <a href="mailto:victor00007567@gmail.com sub?subject=Interesse em contato" target=”_blank”>
                 <img src="img/email.svg" alt="Email">
                 </a>
             </div>

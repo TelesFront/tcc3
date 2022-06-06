@@ -1266,18 +1266,19 @@ border-radius: 50px;
 }
 .cards{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap:50px ;
+  margin: 0px 50px;
 }
 .missao {
-  grid-column: 2;
+  grid-column: 1;
 }
 .visao{
-  grid-column: 3;
+  grid-column: 2;
 }
 
 .valores{
-  grid-column: 4;
+  grid-column: 3;
 }
 
 .visao p, .valores p, .missao p{
@@ -1318,7 +1319,7 @@ border-radius: 50px;
 .logo-titulo-sobrenos img{
   margin: 0px 20px;
 }
-@media(max-width:960px){
+@media(max-width:1000px){
   .cards{
     display: flex;
     flex-direction: column;
