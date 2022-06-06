@@ -54,23 +54,29 @@
 
 
 
+
+
 <div class="galeria">
     <div class="texto-galeria">
         <h2>De uma olhada nas nossas canecas, qualquer estilo por apenas <span class="spanh2" >R$49,90!</span></h2>
         <a class="link-personalizar" href="/teste">Personalize a sua</a>
     </div>
-    <ul  class="fotos">
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-        <li><img src="img/caneca5.jpg" alt="caneca5"></li>
-   </ul>
+   <div class="gallery">
+  <div class="gallery__prev"></div>
+  <div class="gallery__next"></div>
+  <div class="gallery__stream">
+    <div class="gallery__item bg-1"></div>
+    <div class="gallery__item bg-2"></div>
+    <div class="gallery__item bg-3"></div>
+    <div class="gallery__item bg-4"></div>
+    <div class="gallery__item bg-5"></div>
+    <div class="gallery__item bg-6"></div>
+    <div class="gallery__item bg-7"></div>
+  </div>
+</div>
  
 </div>
+ 
 
 <div id="sobrenos">
         <input type="radio" class="slide-controller" name="slide" checked />
@@ -295,5 +301,6 @@
 @endsection
 <script src="js/perguntas.js"></script>
 <script src="js/preloader.js"></script>
+<script src="js/app.js"></script>
 </body> 
 </html>
