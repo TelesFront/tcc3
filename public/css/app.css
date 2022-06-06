@@ -1230,7 +1230,7 @@ border-radius: 50px;
 /* sobre nos */
 #sobrenos{
   margin-top: 120px;
-  width: 102vw;
+  width: 100vw;
   background-color: #107277;
   text-align: center;
   padding:80px 0px;
@@ -1335,6 +1335,72 @@ border-radius: 50px;
   .card-sobrenos{
     margin: 0 20px;
   }
+}
+.teles-da-sobrenos h2{
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.desenvolvedores, .documentação-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+.luis{
+  grid-column: 2;
+}
+.tami{
+  grid-column: 3;
+}
+.rich{
+  grid-column: 4;
+}
+.desenvolvedores-card{
+  padding: 15px 30px;
+  background: rgba(255, 255, 255, 0.758);
+  backdrop-filter: blur( 4px );
+  box-shadow: 1px 4px 10px 0 rgba(9, 55, 43, 0.219);
+  border: 1px solid rgba( 255, 255, 255 );
+  border-radius: 25px;
+ 
+}
+.desenvolvedores-card p {
+  font-size: 1.3rem;
+  font-family: "Nunito";
+  
+}
+.desenvolvedores-card h3{
+  font-size: 1.5rem;
+}
+.tami img,.luis img, .rich img, .rafa img, .victor img{
+  width: 200px;
+  border-radius: 50%;
+}
+.documentação-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+.rafa{
+  grid-column: 2;
+}
+.victor{
+  grid-column: 3;
+  justify-content: center;
+}
+@media(max-width:960px){
+  .tami img,.luis img, .rich img, .rafa img, .victor img{
+    width: 150px;
+  }
+}
+@media(max-width:800px){
+ 
+  .desenvolvedores, .documentação-card{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 /* perguntas frequentes */
 section{

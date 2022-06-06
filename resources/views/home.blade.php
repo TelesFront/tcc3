@@ -83,11 +83,11 @@
         <li class="papertown-sobrenos slides">
         
             <div class="titulo-sobrenos">
-                <h2 class="logo-titulo-sobrenos">PaperTown Art <img src="img/logo.png" alt=""></h2>
-                <h3>Sobre a empresa</h3>
+                    <h2 class="logo-titulo-sobrenos">PaperTown Art <img src="img/logo.png" alt=""></h2>
+                    <h3>Sobre a empresa</h3>
 
-                <p>A Paper Town Art é uma loja de canecas personalizadas e relacionada ao mundo geek.
-Acreditamos na magia dos presentes personalizamos que com um toque de carinho e cuidado se tornam únicos e ainda mais especiais, assim como nossos clientes. </p>
+                    <p>A Paper Town Art é uma loja de canecas personalizadas e relacionada ao mundo geek.
+                    Acreditamos na magia dos presentes personalizamos que com um toque de carinho e cuidado se tornam únicos e ainda mais especiais, assim como nossos clientes. </p>
             </div>
 
             <div class="cards">
@@ -99,35 +99,102 @@ Acreditamos na magia dos presentes personalizamos que com um toque de carinho e 
                 </div>
 
                 <div class="visao card-sobrenos">
-                    
+
                         <h2>Visão</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
                              </p>
-                     </div>
-
+                </div>
+                
                 <div class="valores card-sobrenos">
                         <h2>Valores</h2>
                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, enim. Aut reprehenderit
                                  </p>
-                    </div>
-            </div> 
+
+                </div>
+            </div>
+
             <div class="sobre-voce">
 
-                <div class="imagem-artista"> <img src="img/brennda.jpeg" alt="Foto da Artista"></div>
+                <div class="imagem-artista"> <img src="img/brennda.jpeg" alt="Foto da Artista">
                 <h2>Sobre a Artista</h2>
                 <h3>Oi, eu sou a Brennda, tenho 23 anos e sempre fui apaixonada por arte, desenhos, pinturas e principalmente pelo mundo geek.<br>
-                    Sou uma pessoa que ama trabalhos manuais e confeccionar presentes para aqueles que eu amo, pois acredito que eles são muito mais valiosos e especiais por carregarem tanto carinho e significado no processo de criação. <br>
-Criei a Paper Town justamente para que assim como eu, pessoas que acreditam na magia e significado dos presente personalizados, também possam presentear e surpreender aqueles que amam.<br>
-    
-E também, para aqueles que assim como eu, são fãs de carteirinha e querem demonstrar sua afeição pelos seus personagens favoritos!  </h3>  
+                Sou uma pessoa que ama trabalhos manuais e confeccionar presentes para aqueles que eu amo, pois acredito que eles são muito mais valiosos e especiais por carregarem tanto carinho e significado no processo de criação. <br>
+                Criei a Paper Town justamente para que assim como eu, pessoas que acreditam na magia e significado dos presente personalizados, também possam presentear e surpreender aqueles que amam.<br>
+                E também, para aqueles que assim como eu, são fãs de carteirinha e querem demonstrar sua afeição pelos seus personagens favoritos!</h3>  
             </div>
 
         </li>
 
+
+        <div>
+
         <li class="teles-da-sobrenos slides">
 
-            <img src="img/logo.png" alt="">
-        </li>
+            <div class="titulo-sobrenos">
+            <h2 class="logo-titulo-sobrenos">Teles D.A - Drebown <img src="img/logo.png" alt=""></h2>
+
+                <h3>Sobre a empresa</h3>
+
+                    <p>A Paper Town Art é uma loja de canecas personalizadas e relacionada ao mundo geek.
+                    Acreditamos na magia dos presentes personalizamos que com um toque de carinho e cuidado se tornam únicos e ainda mais especiais, assim como nossos clientes. </p>
+            </div>
+
+
+            <h2>Desenvolvimento</h2>
+        <div class="desenvolvedores">
+                <div class="desenvolvedores-card luis">
+
+                <img src="img/Luis.jpeg" alt="Luis Inacio">
+                <h3>Luis Inacio</h3>
+                <p>Desenvolvedor Back-End Junior</p>
+                <p>Logica e preparação da estrutura cadastral do site</p>
+
+                </div>
+
+                <div class="desenvolvedores-card tami">
+
+                <img src="img/tamiris.jpeg" alt="Tamiris Alencar">
+                <h3>Tamires Alencar</h3>
+                <p>Desenvolvedor(a) Front-End Técnico</p>
+                <p>Estilização, conteudo e organização do site</p>
+
+                </div>
+
+                <div class="desenvolvedores-card rich">
+
+                <img src="img/Richard.jpeg" alt="Richard Inada">
+                <h3>Richard Inada</h3>
+                <p>Desenvolvedor Back-End Técnico</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+
+           <h2>Documentação</h2>
+           <div class="documentação-card">
+                <div class="desenvolvedores-card rafa">
+
+                <img src="img/tamiris.jpeg" alt="Tamiris Alencar">
+                <h3>Rafael</h3>
+                <p>Desenvolvedor Back-End Técnico</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+
+                <div class="desenvolvedores-card victor">
+
+                <img src="img/Teles.jpeg" alt="Victor Teles">
+                <h3>Victor Teles</h3>
+                <p>Desenvolvedor Full-Stack Técnico</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+           </div>
+
+</div>
+
+</li>
+        </div>
         </ul>
 
         
@@ -135,7 +202,7 @@ E também, para aqueles que assim como eu, são fãs de carteirinha e querem dem
     
 </div>
 
-         <div>
+    <div>
         <section>
                 <h2 class="title">Perguntas Frequentes</h2>
                 <div class="faq" id="faq1" onclick="faq1()">
@@ -175,16 +242,20 @@ E também, para aqueles que assim como eu, são fãs de carteirinha e querem dem
                     </div>
                 </div>
             </section>
-            </div>
+         </div>
     
-<div id="contato">
-    <div class="redes-sociais">
-    <a href=""> <img src="img/instagram.svg" alt="Instagram"></a>
-   <a href=""> <img src="img/facebook.svg" alt="Facebook"></a>
-   <a href=""> <img src="img/tik-tok.svg" alt="Tik Tok"></a>
-   </div>
+
+         <div id="contato">
+
+                <div class="redes-sociais">
+                    <a href=""> <img src="img/instagram.svg" alt="Instagram"></a>
+                    <a href=""> <img src="img/facebook.svg" alt="Facebook"></a>
+                    <a href=""> <img src="img/tik-tok.svg" alt="Tik Tok"></a>
+        </div>
     
-<script type="text/javascript" src="https://form.jotform.com/jsform/221526014436649"></script>
+
+
+   <script type="text/javascript" src="https://form.jotform.com/jsform/221526014436649"></script>
 
     
 
@@ -193,7 +264,7 @@ E também, para aqueles que assim como eu, são fãs de carteirinha e querem dem
 <footer class="footer-login">
     <div class="footer-login-container">
 
-                <p>Teles.DA</p>
+                <p>Teles D.A</p>
             <div class="teles-da">      
                 <a href="">
                 <img src="img/instagram.svg" alt="Instagram">
