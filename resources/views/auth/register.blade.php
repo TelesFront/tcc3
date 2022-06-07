@@ -85,10 +85,32 @@
                 </div>
             </div>
         </div>
-        <footer>
-    <div class="footer">
-        <p>Alguns direitos reservado - Teles.DA</p>
+        <footer class="footer-login">
+    <div class="footer-login-container">
 
+                <p>Teles D.A</p>
+            <div class="teles-da">      
+                <a href="https://www.instagram.com/teles_d.a/?igshid=YmMyMTA2M2Y%3D "  target=”_blank” >
+                <img src="img/instagram.svg"  alt="Instagram">
+                </a>
+                <a href=" https://telesda.com" target=”_blank”>
+                <img src="img/web.svg" alt="Web">
+                </a>
+                <a href="mailto:victor00007567@gmail.com sub?subject=Interesse em contato" target=”_blank”>
+                <img src="img/email.svg" alt="Email">
+                </a>
+            </div>
+            
+
+
+        <div class="icones-apresentacao">
+    <a href="https://www.flaticon.com/br/icones-gratis/instagram" target="_blank" title="instagram ícones">Instagram ícones criados por Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/whatsapp" target="_blank" title="whatsapp ícones">Whatsapp ícones criados por Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/facebook" target="_blank" title="facebook ícones">Facebook ícones criados por Freepik - Flaticon</a>  
+    <a href="https://www.flaticon.com/br/icones-gratis/tiktok" target="_blank" title="tiktok ícones">Tiktok ícones criados por Freepik - Flaticon</a>  
+    <a href="https://www.flaticon.com/br/icones-gratis/o-email" target="_blank" title="o email ícones">O email ícones criados por Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/pagina-da-web" title="página da web ícones">Página da web ícones criados por Freepik - Flaticon</a>
+        </div>
     </div>
 </footer>
     </div>

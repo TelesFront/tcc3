@@ -79,8 +79,9 @@
  
 
 <div id="sobrenos">
-        <input type="radio" class="slide-controller" name="slide" checked />
-        <input type="radio" class="slide-controller" name="slide" />
+    
+        <input type="radio" class="slide-controller one" name="slide" checked />
+        <input type="radio" class="slide-controller two" name="slide" />
 
     <div class="sobrenos-container slide-show" >
 
@@ -129,6 +130,9 @@
                 Criei a Paper Town justamente para que assim como eu, pessoas que acreditam na magia e significado dos presente personalizados, também possam presentear e surpreender aqueles que amam.<br>
                 E também, para aqueles que assim como eu, são fãs de carteirinha e querem demonstrar sua afeição pelos seus personagens favoritos!</h3>  
             </div>
+            <a href="https://m.facebook.com/brennda.sevenfold" target=”_blank”> <img src="img/facebook.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/brenndss_/" target=”_blank”> <img src="img/instagram.svg" alt="Instagram"></a>
+
 
         </li>
 
@@ -154,6 +158,13 @@
                 <h3>Luis Inacio</h3>
                 <p>Desenvolvedor Back-End Junior</p>
                 <p>Logica e preparação da estrutura cadastral do site</p>
+                
+                    <div class="redes-desenvolvedore">
+                    <a href=""> <img src="img/instagram.svg" alt="Luis Inacio - Instagram"></a>
+                    <a href=""><img  src="img/github.svg" alt="Luis Inacio - GitHub"></a>
+                    <a href=""> <img src="img/linkedin.svg" alt="Luis Inacio - Linkedin"></a>
+
+                    </div>
 
                 </div>
 
@@ -164,6 +175,13 @@
                 <p>Desenvolvedor(a) Front-End Técnico</p>
                 <p>Estilização, conteudo e organização do site</p>
 
+
+                <div class="redes-desenvolvedore">
+                    <a href=""> <img src="img/instagram.svg" alt="Tamires Alencar- Instagram"></a>
+                    <a href=""><img  src="img/github.svg" alt="Tamires Alencar- GitHub"></a>
+                    <a href=""> <img src="img/linkedin.svg" alt="Tamires Alencar - Linkedin"></a>
+                 </div>
+
                 </div>
 
                 <div class="desenvolvedores-card rich">
@@ -172,6 +190,12 @@
                 <h3>Richard Inada</h3>
                 <p>Desenvolvedor Back-End Técnico</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="redes-desenvolvedore">
+                    <a href=""> <img src="img/instagram.svg" alt="Richard Inada - Instagram"></a>
+                    <a href=""><img  src="img/github.svg" alt="Richard Inada - GitHub"></a>
+                    <a href=""> <img src="img/linkedin.svg" alt="Richard Inada - Linkedin"></a>
+                 </div>
 
                 </div>
             </div>
@@ -185,6 +209,12 @@
                 <p>Desenvolvedor Back-End Técnico</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
+                <div class="redes-desenvolvedore">
+                    <a href=""> <img  src="img/instagram.svg" alt="Rafael Oliveira - Instagram"></a>
+                    <a href=""><img  src="img/github.svg" alt="Rafael Oliveira - GitHub"></a>
+                    <a href=""> <img src="img/linkedin.svg" alt="Rafael Oliveira - Linkedin"></a>
+                 </div>
+
                 </div>
 
                 <div class="desenvolvedores-card victor">
@@ -193,6 +223,12 @@
                 <h3>Victor Teles</h3>
                 <p>Desenvolvedor Full-Stack Técnico</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="redes-desenvolvedore">
+                    <a href=""> <img  src="img/instagram.svg" alt="Victor Teles - Instagram"></a>
+                    <a href=""><img  src="img/github.svg" alt="Victor Teles - GitHub"></a>
+                    <a href=""> <img src="img/linkedin.svg" alt="Victor Teles - Linkedin"></a>
+                 </div>
 
                 </div>
            </div>
@@ -254,9 +290,8 @@
          <div id="contato">
 
                 <div class="redes-sociais">
-                    <a href=""> <img src="img/instagram.svg" alt="Instagram"></a>
-                    <a href=""> <img src="img/facebook.svg" alt="Facebook"></a>
-                    <a href=""> <img src="img/tik-tok.svg" alt="Tik Tok"></a>
+                    <a href="https://www.instagram.com/papertown_art/" target=”_blank”> <img src="img/instagram.svg" alt="Instagram"></a>
+                    
         </div>
     
 
@@ -292,7 +327,9 @@
     <a href="https://www.flaticon.com/br/icones-gratis/tiktok" target="_blank" title="tiktok ícones">Tiktok ícones criados por Freepik - Flaticon</a>  
     <a href="https://www.flaticon.com/br/icones-gratis/o-email" target="_blank" title="o email ícones">O email ícones criados por Freepik - Flaticon</a>
     <a href="https://www.flaticon.com/br/icones-gratis/pagina-da-web" title="página da web ícones">Página da web ícones criados por Freepik - Flaticon</a>
-        </div>
+    <a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por IconsBox - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Freepik - Flaticon</a>
+</div>
     </div>
 </footer>
 
