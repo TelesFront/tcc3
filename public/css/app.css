@@ -312,7 +312,7 @@ border-radius: 50px;
 }
 @media (max-width:410px ){
   .rotas{
-      width: 104vw;
+      width: 100vw;
       left: 0;
       top: 71px;
   }
