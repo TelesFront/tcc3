@@ -169,7 +169,7 @@ body{
   margin: 0 auto;
   display: flex;
   width: 100vw;
-  height: 13vh;
+  height: 100px;
   position: fixed;
   justify-content: space-between;
   align-items: center;
@@ -253,7 +253,7 @@ border-radius: 50px;
   .rotas{
     z-index: 1000;
     position: absolute;
-    top: 103px;
+    top: 100px;
     right: -20px;
     width: 50vw;
     height: 100vh;
@@ -345,14 +345,15 @@ border-radius: 50px;
 
 }
 .form{
+  margin: 20px auto;
   grid-column : 2;
   background: rgba(255, 200, 221, 0.35);
   backdrop-filter: blur( 3.5px );
   box-shadow: 0 20px 32px 0 rgba(241, 45, 130, 0.219);
   border: 1px solid rgba( 255, 255, 255 );
   padding: 30px;
-  width: 400px;
-  height: 400px;
+  width: 490px;
+  height: 490px;
   text-align: center;
   animation: show 1s forwards;
   border-radius: 100%;
@@ -524,8 +525,8 @@ border-radius: 50px;
 }
 @media(max-width: 500px){
   .form{
-    width: 370px;
-    height: 370px;
+    width: 400px;
+    height: 400px;
   }
   .login-label{
     font-size: 2rem;
@@ -546,7 +547,7 @@ border-radius: 50px;
   .form{
     border-radius: 20px;
     width: 250px;
-    height: 380px;
+    height: 400px;
   }
   .logo h1{
     font-size: 1rem;
@@ -1572,7 +1573,7 @@ cursor: pointer;
   position: absolute;
   width: 50%;
   height: 100%;
-  transition: 1s all ease;
+  transition: 1s all ease-in-out;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
